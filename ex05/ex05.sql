@@ -1,3 +1,3 @@
-USE `db_adsabau`;
+USE `db_mlakatos`;
 
-DELETE from `ft_table` LIMIT 5;
+DELETE FROM `ft_table` LIMIT 5;

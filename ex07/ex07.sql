@@ -1,3 +1,5 @@
-`USE `db_adsabau`;
+USE `db_mlakatos`;
 
-SELECT `title`, `summary` FROM `film` WHERE `summary`LIKE '%42%' ORDER BY `duration` ASC;
+SELECT `title`, `summary` FROM `film`
+WHERE `title` LIKE "%42%"
+ORDER BY `duration` ASC;

@@ -1,6 +1,5 @@
-USE `db_adsabau`;
+USE `db_mlakatos`;
 
 UPDATE `ft_table`
-    -- if the value of the id INT is bigger than 5:
-    SET `creation_date` =  DATE_ADD(`creation_date`, INTERVAL 20 YEAR) WHERE `id` > 5;
-   
+SET `creation_date` = DATE_ADD(`creation_date`, INTERVAL 20 year)
+WHERE `id` > 5;
