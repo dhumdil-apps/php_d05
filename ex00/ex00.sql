@@ -1,3 +1,3 @@
--- create db from .sql file
-DROP `db_adsabau` IF EXISTS
-CREATE DATABASE `db_adsabau` 
+DROP DATABASE IF EXISTS `db_mlakatos`;
+
+CREATE DATABASE `db_mlakatos`;
