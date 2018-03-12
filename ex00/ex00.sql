@@ -1,3 +1,3 @@
 -- create db from .sql file
-CREATE DATABASE da_adsabau 
-                    
+DROP `db_adsabau` IF EXISTS
+CREATE DATABASE `db_adsabau` 
